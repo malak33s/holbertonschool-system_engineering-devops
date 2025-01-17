@@ -1,0 +1,6 @@
+https://lucid.app/lucidchart/6fd8363c-d80a-4300-9142-49c5da541224/edit?viewport_loc=-1897%2C-1575%2C4111%2C1628%2C0_0&invitationId=inv_987f6614-0846-40ed-97cd-b51fd56aa16e
+
+1 Load-Balancer (HAProxy)	Distributes incoming traffic evenly across the web servers to ensure high availability and efficiency.	Adding a second load balancer in a cluster setup improves fault tolerance and scalability, ensuring seamless operations even if one load balancer fails.
+2 Web Servers (Nginx)	Handles HTTP(S) requests, serves static content, and forwards dynamic requests to application servers.	Splitting the web server onto its own machine reduces resource contention and ensures better performance for serving static files and proxying requests.
+2 Application Servers	Processes dynamic requests and executes application logic.	Separating the application server from the web server avoids overloading a single server and allows application-specific scaling as traffic increases.
+1 Database Server (MySQL)	Stores and manages structured data for the application.	Placing the database on a dedicated server improves performance and ensures secure and centralized data management for the growing infrastructure.
