@@ -1,6 +1,5 @@
-git
-
-
+Le lien du diagramme
+https://lucid.app/lucidchart/6fd8363c-d80a-4300-9142-49c5da541224/edit?view_items=MJqK8pdyX9PX&invitationId=inv_987f6614-0846-40ed-97cd-b51fd56aa16e
 
 Composant	Rôle
 Serveur	Héberge toute l'infrastructure (serveur web, application, base de données). Traite les requêtes des utilisateurs.
