@@ -1,0 +1,11 @@
+git
+
+
+
+Composant	Rôle
+Serveur	Héberge toute l'infrastructure (serveur web, application, base de données). Traite les requêtes des utilisateurs.
+Serveur Web (Nginx)	Gère les requêtes HTTP/HTTPS. Sert les fichiers statiques ou redirige les requêtes vers le serveur applicatif.
+Serveur Applicatif	Exécute la logique métier, traite les requêtes dynamiques et interagit avec la base de données.
+Base de Données (MySQL)	Stocke les données comme les informations des utilisateurs et le contenu. Fournit les données demandées par le serveur applicatif.
+Nom de Domaine (foobar.com)	Simplifie l'accès à l'infrastructure via une URL au lieu d'une adresse IP. Utilise un enregistrement DNS (A record) pointant vers 8.8.8.8.
+Communication	Utilise les protocoles HTTP/HTTPS sur TCP/IP pour connecter l'utilisateur au serveur et transmettre les données du site.
