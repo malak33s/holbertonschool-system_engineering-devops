@@ -1,0 +1,9 @@
+Le lien du diagramme https://lucid.app/lucidchart/7876e658-d178-4f8a-ae6d-4bce6ff45c48/edit?viewport_loc=-1349%2C-708%2C5519%2C2185%2C0_0&invitationId=inv_f2335323-5643-4f93-9686-9774fe63e421
+
+Composant	Rôle
+Serveur Load-Balancer (HAproxy)     	Répartit le trafic entre les serveurs web/applicatifs. Utilise des algorithmes comme Round Robin ou Least Connections.
+Serveur Web (Nginx)                 	Gère les requêtes HTTP/HTTPS entrantes et sert les fichiers statiques ou transmet les requêtes au serveur applicatif.
+Serveur Applicatif                     	Exécute la logique métier, traite les requêtes dynamiques, et communique avec la base de données.
+Base de Données (MySQL)                	Mise en cluster avec un mode Primary-Replica (Master-Slave). Stocke les données nécessaires au fonctionnement du site.
+Nom de Domaine (foobar.com )	        Permet un accès simple via une URL en pointant vers l'adresse IP du load balancer à l'aide d'un enregistrement DNS.
+                                        Serveurs supplémentaires	Améliorent la tolérance aux pannes et permettent une meilleure gestion des montées en charge.
